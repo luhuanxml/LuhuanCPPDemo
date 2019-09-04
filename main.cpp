@@ -1,47 +1,35 @@
 #include <iostream>
-#include "Person.h"
+#include "bean/Person.h"
+#include "math/Math.h"
+#include "data/Computer.h"
 
 using namespace std;
 
-int sumOneToTen();
-
-int sum();
 
 int main() {
+    Computer computer;
+    computer.cpu = "intel i5";
+    computer.keyboard = "kkkb";
+    computer.neicuntiao = "kingston";
+    computer.yingpan = "summing";
+    cout << computer.cpu << computer.keyboard << computer.neicuntiao << computer.yingpan << endl;
+    Phone phone;
+    phone.cpu = "麒麟芯片";
+    phone.payee = "华为";
+    phone.price = "¥3999";
+    phone.type = "Android";
+    cout << phone.cpu
+         << phone.type
+         << phone.price
+         << phone.payee
+         << endl;
+    Math math;
     cout << "Hello, World!" << endl;
-    cout << sumOneToTen() << endl;
+    cout << math.sumOneToTen() << endl;
+    cout << "请输入两个数字求和:" << endl;
+    math.sum();
+    cout << "-10000的绝对值是" << math.math_abs(-10000) << endl;
     Person person;
     cout << person.getInfo() << endl;
-    sum();
     return 0;
-}
-
-/**
- * 两数相加 大于20超出范围 不参与计算
- * @return  result
- */
-int sum() {
-    while (true) {
-        int x;
-        int y;
-        cin >> x >> y;
-        cout << x + y << endl;
-        if (x + y > 20) {
-            cout << "超出计算范围" << endl;
-            return 0;
-        }
-
-    }
-}
-
-/**
- * 计算1 --- 10的总和
- * @return result
- */
-int sumOneToTen() {
-    int sum = 0;
-    for (int i = 1; i <= 10; ++i) {
-        sum += i;
-    }
-    return sum;
 }

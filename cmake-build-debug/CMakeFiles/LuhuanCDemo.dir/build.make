@@ -70,32 +70,62 @@ CMakeFiles/LuhuanCDemo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LuhuanCDemo.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shengchang/CLionProjects/LuhuanCDemo/main.cpp -o CMakeFiles/LuhuanCDemo.dir/main.cpp.s
 
-CMakeFiles/LuhuanCDemo.dir/Person.cpp.o: CMakeFiles/LuhuanCDemo.dir/flags.make
-CMakeFiles/LuhuanCDemo.dir/Person.cpp.o: ../Person.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LuhuanCDemo.dir/Person.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LuhuanCDemo.dir/Person.cpp.o -c /Users/shengchang/CLionProjects/LuhuanCDemo/Person.cpp
+CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.o: CMakeFiles/LuhuanCDemo.dir/flags.make
+CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.o: ../bean/Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.o -c /Users/shengchang/CLionProjects/LuhuanCDemo/bean/Person.cpp
 
-CMakeFiles/LuhuanCDemo.dir/Person.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LuhuanCDemo.dir/Person.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shengchang/CLionProjects/LuhuanCDemo/Person.cpp > CMakeFiles/LuhuanCDemo.dir/Person.cpp.i
+CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shengchang/CLionProjects/LuhuanCDemo/bean/Person.cpp > CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.i
 
-CMakeFiles/LuhuanCDemo.dir/Person.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LuhuanCDemo.dir/Person.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shengchang/CLionProjects/LuhuanCDemo/Person.cpp -o CMakeFiles/LuhuanCDemo.dir/Person.cpp.s
+CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shengchang/CLionProjects/LuhuanCDemo/bean/Person.cpp -o CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.s
+
+CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.o: CMakeFiles/LuhuanCDemo.dir/flags.make
+CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.o: ../math/Math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.o -c /Users/shengchang/CLionProjects/LuhuanCDemo/math/Math.cpp
+
+CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shengchang/CLionProjects/LuhuanCDemo/math/Math.cpp > CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.i
+
+CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shengchang/CLionProjects/LuhuanCDemo/math/Math.cpp -o CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.s
+
+CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.o: CMakeFiles/LuhuanCDemo.dir/flags.make
+CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.o: ../data/Computer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.o -c /Users/shengchang/CLionProjects/LuhuanCDemo/data/Computer.cpp
+
+CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shengchang/CLionProjects/LuhuanCDemo/data/Computer.cpp > CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.i
+
+CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shengchang/CLionProjects/LuhuanCDemo/data/Computer.cpp -o CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.s
 
 # Object files for target LuhuanCDemo
 LuhuanCDemo_OBJECTS = \
 "CMakeFiles/LuhuanCDemo.dir/main.cpp.o" \
-"CMakeFiles/LuhuanCDemo.dir/Person.cpp.o"
+"CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.o" \
+"CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.o" \
+"CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.o"
 
 # External object files for target LuhuanCDemo
 LuhuanCDemo_EXTERNAL_OBJECTS =
 
 LuhuanCDemo: CMakeFiles/LuhuanCDemo.dir/main.cpp.o
-LuhuanCDemo: CMakeFiles/LuhuanCDemo.dir/Person.cpp.o
+LuhuanCDemo: CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.o
+LuhuanCDemo: CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.o
+LuhuanCDemo: CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.o
 LuhuanCDemo: CMakeFiles/LuhuanCDemo.dir/build.make
 LuhuanCDemo: CMakeFiles/LuhuanCDemo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LuhuanCDemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable LuhuanCDemo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LuhuanCDemo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

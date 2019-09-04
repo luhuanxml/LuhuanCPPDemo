@@ -80,13 +80,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/Person.cpp">
+		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/bean/Person.cpp">
 			<Option target="LuhuanCDemo"/>
 		</Unit>
-		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/Person.h">
+		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/bean/Person.h">
+			<Option target="LuhuanCDemo"/>
+		</Unit>
+		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/data/Computer.cpp">
+			<Option target="LuhuanCDemo"/>
+		</Unit>
+		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/data/Computer.h">
 			<Option target="LuhuanCDemo"/>
 		</Unit>
 		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/main.cpp">
+			<Option target="LuhuanCDemo"/>
+		</Unit>
+		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/math/Math.cpp">
+			<Option target="LuhuanCDemo"/>
+		</Unit>
+		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/math/Math.h">
 			<Option target="LuhuanCDemo"/>
 		</Unit>
 		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/CMakeLists.txt">

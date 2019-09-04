@@ -123,32 +123,59 @@ LuhuanCDemo/fast:
 	$(MAKE) -f CMakeFiles/LuhuanCDemo.dir/build.make CMakeFiles/LuhuanCDemo.dir/build
 .PHONY : LuhuanCDemo/fast
 
-Person.o: Person.cpp.o
+bean/Person.o: bean/Person.cpp.o
 
-.PHONY : Person.o
+.PHONY : bean/Person.o
 
 # target to build an object file
-Person.cpp.o:
-	$(MAKE) -f CMakeFiles/LuhuanCDemo.dir/build.make CMakeFiles/LuhuanCDemo.dir/Person.cpp.o
-.PHONY : Person.cpp.o
+bean/Person.cpp.o:
+	$(MAKE) -f CMakeFiles/LuhuanCDemo.dir/build.make CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.o
+.PHONY : bean/Person.cpp.o
 
-Person.i: Person.cpp.i
+bean/Person.i: bean/Person.cpp.i
 
-.PHONY : Person.i
+.PHONY : bean/Person.i
 
 # target to preprocess a source file
-Person.cpp.i:
-	$(MAKE) -f CMakeFiles/LuhuanCDemo.dir/build.make CMakeFiles/LuhuanCDemo.dir/Person.cpp.i
-.PHONY : Person.cpp.i
+bean/Person.cpp.i:
+	$(MAKE) -f CMakeFiles/LuhuanCDemo.dir/build.make CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.i
+.PHONY : bean/Person.cpp.i
 
-Person.s: Person.cpp.s
+bean/Person.s: bean/Person.cpp.s
 
-.PHONY : Person.s
+.PHONY : bean/Person.s
 
 # target to generate assembly for a file
-Person.cpp.s:
-	$(MAKE) -f CMakeFiles/LuhuanCDemo.dir/build.make CMakeFiles/LuhuanCDemo.dir/Person.cpp.s
-.PHONY : Person.cpp.s
+bean/Person.cpp.s:
+	$(MAKE) -f CMakeFiles/LuhuanCDemo.dir/build.make CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.s
+.PHONY : bean/Person.cpp.s
+
+data/Computer.o: data/Computer.cpp.o
+
+.PHONY : data/Computer.o
+
+# target to build an object file
+data/Computer.cpp.o:
+	$(MAKE) -f CMakeFiles/LuhuanCDemo.dir/build.make CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.o
+.PHONY : data/Computer.cpp.o
+
+data/Computer.i: data/Computer.cpp.i
+
+.PHONY : data/Computer.i
+
+# target to preprocess a source file
+data/Computer.cpp.i:
+	$(MAKE) -f CMakeFiles/LuhuanCDemo.dir/build.make CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.i
+.PHONY : data/Computer.cpp.i
+
+data/Computer.s: data/Computer.cpp.s
+
+.PHONY : data/Computer.s
+
+# target to generate assembly for a file
+data/Computer.cpp.s:
+	$(MAKE) -f CMakeFiles/LuhuanCDemo.dir/build.make CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.s
+.PHONY : data/Computer.cpp.s
 
 main.o: main.cpp.o
 
@@ -177,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/LuhuanCDemo.dir/build.make CMakeFiles/LuhuanCDemo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+math/Math.o: math/Math.cpp.o
+
+.PHONY : math/Math.o
+
+# target to build an object file
+math/Math.cpp.o:
+	$(MAKE) -f CMakeFiles/LuhuanCDemo.dir/build.make CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.o
+.PHONY : math/Math.cpp.o
+
+math/Math.i: math/Math.cpp.i
+
+.PHONY : math/Math.i
+
+# target to preprocess a source file
+math/Math.cpp.i:
+	$(MAKE) -f CMakeFiles/LuhuanCDemo.dir/build.make CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.i
+.PHONY : math/Math.cpp.i
+
+math/Math.s: math/Math.cpp.s
+
+.PHONY : math/Math.s
+
+# target to generate assembly for a file
+math/Math.cpp.s:
+	$(MAKE) -f CMakeFiles/LuhuanCDemo.dir/build.make CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.s
+.PHONY : math/Math.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LuhuanCDemo"
-	@echo "... Person.o"
-	@echo "... Person.i"
-	@echo "... Person.s"
+	@echo "... bean/Person.o"
+	@echo "... bean/Person.i"
+	@echo "... bean/Person.s"
+	@echo "... data/Computer.o"
+	@echo "... data/Computer.i"
+	@echo "... data/Computer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... math/Math.o"
+	@echo "... math/Math.i"
+	@echo "... math/Math.s"
 .PHONY : help
 
 

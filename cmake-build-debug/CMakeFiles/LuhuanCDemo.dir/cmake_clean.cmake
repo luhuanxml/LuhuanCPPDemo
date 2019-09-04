@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LuhuanCDemo.dir/main.cpp.o"
-  "CMakeFiles/LuhuanCDemo.dir/Person.cpp.o"
+  "CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.o"
+  "CMakeFiles/LuhuanCDemo.dir/math/Math.cpp.o"
+  "CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.o"
   "LuhuanCDemo.pdb"
   "LuhuanCDemo"
 )

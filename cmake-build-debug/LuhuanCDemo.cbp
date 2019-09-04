@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug"/>
+				<Option working_dir="/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug"/>
+				<Option working_dir="/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug"/>
+				<Option working_dir="/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LuhuanCDemo">
-				<Option output="/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/LuhuanCDemo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug"/>
+				<Option output="/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/LuhuanCDemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 LuhuanCDemo"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 LuhuanCDemo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LuhuanCDemo/fast">
-				<Option output="/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/LuhuanCDemo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug"/>
+				<Option output="/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/LuhuanCDemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,35 +73,35 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 LuhuanCDemo/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shengchang/CLionProjects/LuhuanCDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 LuhuanCDemo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/bean/Person.cpp">
+		<Unit filename="/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/bean/Person.cpp">
 			<Option target="LuhuanCDemo"/>
 		</Unit>
-		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/bean/Person.h">
+		<Unit filename="/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/bean/Person.h">
 			<Option target="LuhuanCDemo"/>
 		</Unit>
-		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/data/Computer.cpp">
+		<Unit filename="/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/data/Computer.cpp">
 			<Option target="LuhuanCDemo"/>
 		</Unit>
-		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/data/Computer.h">
+		<Unit filename="/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/data/Computer.h">
 			<Option target="LuhuanCDemo"/>
 		</Unit>
-		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/main.cpp">
+		<Unit filename="/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/main.cpp">
 			<Option target="LuhuanCDemo"/>
 		</Unit>
-		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/math/Math.cpp">
+		<Unit filename="/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/math/Math.cpp">
 			<Option target="LuhuanCDemo"/>
 		</Unit>
-		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/math/Math.h">
+		<Unit filename="/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/math/Math.h">
 			<Option target="LuhuanCDemo"/>
 		</Unit>
-		<Unit filename="/Users/shengchang/CLionProjects/LuhuanCDemo/CMakeLists.txt">
+		<Unit filename="/Users/xmlluhuan/CLionProjects/LuhuanCPPDemo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

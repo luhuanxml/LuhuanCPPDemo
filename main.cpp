@@ -50,12 +50,11 @@ int main() {
          << phone.price
          << phone.payee
          << endl;
-    Math math;
     cout << "Hello, World!" << endl;
-    cout << math.sumOneToTen() << endl;
+    cout << Math::sumOneToTen() << endl;
     cout << "请输入两个数字求和:" << endl;
-    math.sum();
-    cout << "-10000的绝对值是" << math.math_abs(-10000) << endl;
+    Math::sum();
+    cout << "-10000的绝对值是" << Math::math_abs(-10000) << endl;
     Person person;
     cout << person.getInfo() << endl;
     return 0;

@@ -5,6 +5,7 @@ CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.o: ../bean/Person.cpp
 CMakeFiles/LuhuanCDemo.dir/bean/Person.cpp.o: ../bean/Person.h
 
 CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.o: ../data/Computer.cpp
+CMakeFiles/LuhuanCDemo.dir/data/Computer.cpp.o: ../data/Computer.h
 
 CMakeFiles/LuhuanCDemo.dir/main.cpp.o: ../bean/Person.h
 CMakeFiles/LuhuanCDemo.dir/main.cpp.o: ../data/Computer.h

@@ -5,8 +5,35 @@
 
 using namespace std;
 
+/**
+ * 枚举 默认第一个成员赋值为0 后面一次大1
+ */
+enum Status {
+    status1, status2, status3
+};
+
+namespace first {
+    void print() {
+        printf("first");
+    }
+}
+namespace second {
+    void print() {
+        printf("second");
+    }
+}
+
+int a(10);
 
 int main() {
+    method();
+    cout << Status::status1 << endl;
+    cout << Status::status2 << endl;
+    cout << Status::status3 << endl;
+    first::print();
+    second::print();
+
+    cout << a << endl;
     Computer computer;
     computer.cpu = "intel i5";
     computer.keyboard = "kkkb";

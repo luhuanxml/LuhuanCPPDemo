@@ -8,6 +8,8 @@
 #include <string>
 using namespace std;
 
+void method();
+
 struct Computer {
 public:
     string cpu;
